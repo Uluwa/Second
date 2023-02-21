@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    background-color: green;
+    height: 50px;
+    gap: 50px;
+}
+.header__text {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.header__summary {
+    padding-left: 25px;
+    padding-top: 18px;
+    font-size: small;
+}
+.wrapper {
+    display: flex;
+    width: 1400px;
+    height: 900px
+}
+.item1 {
+    width: 33%;
+    padding-top: 15px;
+}
+
+.input__item {
+    width: 250px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    
+}
+.input__address {
+    width: 250px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    height: 150px;
+}
+.writer__bold {
+    font-weight: bold;
+    height: 60px;
+}
+.select {
+    width: 255px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.input__phone {
+    width: 130px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.item2 {
+    width:  33%;
+    padding-top: 15px;
+}
+    
+.item3 {
+    width:  33%;
+    padding-top: 15px;
+    
+}
+.test__item {
+    padding-left: 45%;
+    font-weight: bold;
+}
+.label__item {
+    padding-top: 50px;   
+}
+.label__item--m {
+    padding-left: 45%;
+    font-weight: bold;
+}
+.message__item {
+    padding-left: 45%;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.form {
+    display: flex;
+    height: 150px;
+    width: 250px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.btn {
+    background-color: green;
+    color: #ffff;
+}
